@@ -1,0 +1,26 @@
+{
+    "name": "aurelienazerty/sitelan",
+    "type": "phpbb-extension",
+    "description": "Affichage du nombre de LAN sur les profils.",
+    "homepage": "https://www.team-azerty.com",
+    "version": "1.0.0",
+    "time": "2024-04-21",
+    "keywords": ["phpbb", "extension", "photo"],
+    "license": "GPL-2.0",
+    "authors": [
+        {
+            "name": "aurelienazerty",
+            "homepage": "https://www.team-azerty.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.3"
+    },
+   "extra": {
+        "display-name": "Participation aux lan",
+        "soft-require": {
+            "phpbb/phpbb": "3.1.*"
+        }
+    }
+}

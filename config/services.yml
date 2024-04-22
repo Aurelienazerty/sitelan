@@ -1,0 +1,9 @@
+services:
+    aurelienazerty.sitelan.listener:
+        class: aurelienazerty\sitelan\event\listener
+        arguments:
+            - '@template'
+            - '@user'
+            - '@language'
+        tags:
+            - { name: event.listener }
